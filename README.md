@@ -7,7 +7,7 @@ The data was collected from Google Play, and it’s not as easy to get as data f
 - **apps.csv**: This file has detailed info about each app, including 13 different features.
 - **user_reviews.csv**: This file contains 100 reviews for each app, showing the most helpful ones first. The reviews are pre-processed and include extra details like sentiment (positive, negative, or neutral) and sentiment scores.
 
-Woekflow
+Workflow
 
 Google Play Store apps and reviews
 
