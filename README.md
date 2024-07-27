@@ -10,11 +10,19 @@ The data was collected from Google Play, and it’s not as easy to get as data f
 Woekflow
 
 Google Play Store apps and reviews
+
 Data cleaning
+
 Exploring app categories
+
 Distribution of app ratings
+
 Size and price of an app
+
 Relation between app category and app price
+
 Filter out "junk" apps
+
 Popularity of paid apps vs free apps
+
 Sentiment analysis of user reviews
