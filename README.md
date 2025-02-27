@@ -1,28 +1,39 @@
-# Analysis-of-Andriod-App-Market-on-Google-Play-
-A project which shows analysis of Andriod App Market on Google Play
-Mobile apps are everywhere, and making them is both easy and potentially profitable. Because of this, lots of new apps are being created all the time. In this project, you'll analyze over ten thousand Android apps from Google Play to find useful patterns and ideas to help apps grow and keep users engaged.
+# 📊 Analysis of Android App Market on Google Play
 
-The data was collected from Google Play, and it’s not as easy to get as data from the Apple App Store. Here’s what you have:
+## 📝 About This Project
+This project focuses on analyzing the **Google Play Store's Android app market** using data science techniques. The analysis aims to uncover trends in **app categories, ratings, pricing, and user reviews**, providing insights into what makes an app successful.
 
-- **apps.csv**: This file has detailed info about each app, including 13 different features.
-- **user_reviews.csv**: This file contains 100 reviews for each app, showing the most helpful ones first. The reviews are pre-processed and include extra details like sentiment (positive, negative, or neutral) and sentiment scores.
+## 🌟 Key Features
+✅ **Data Cleaning & Preprocessing** – Handles missing values, duplicates, and outliers  
+✅ **Exploratory Data Analysis (EDA)** – Extracts insights from app ratings, pricing, and categories  
+✅ **Data Visualization** – Graphs and charts for trends in app installs, ratings, and popularity  
+✅ **Sentiment Analysis** – Analyzes user reviews to classify them as positive, neutral, or negative  
+✅ **Correlation Analysis** – Examines relationships between app features (size, reviews, price, etc.)  
+✅ **Machine Learning (if applicable)** – Predicts app success based on historical data  
 
-Workflow
+## 🛠️ Tech Stack
+- **Programming Language**: Python  
+- **Data Processing**: Pandas, NumPy  
+- **Visualization**: Matplotlib, Seaborn  
+- **Natural Language Processing (NLP)**: NLTK / TextBlob (for sentiment analysis)  
+- **Machine Learning**: Scikit-learn (if included)  
+- **Jupyter Notebook**: Used for exploratory analysis  
 
-Google Play Store apps and reviews
+## 📂 Dataset
+The dataset used for this analysis contains information on Google Play Store apps, including:  
+- App Name  
+- Category  
+- Rating  
+- Number of Reviews  
+- Size (MB)  
+- Price  
+- Type (Free/Paid)  
+- Number of Installs  
+- Content Rating  
 
-Data cleaning
-
-Exploring app categories
-
-Distribution of app ratings
-
-Size and price of an app
-
-Relation between app category and app price
-
-Filter out "junk" apps
-
-Popularity of paid apps vs free apps
-
-Sentiment analysis of user reviews
+## 🔍 **Key Insights**
+- Which app categories have the highest ratings?
+- How does app pricing impact user ratings?
+- Which factors contribute to an app's popularity?
+- Do paid apps have better ratings than free apps?
+- What are the common sentiments in user reviews?
